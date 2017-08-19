@@ -11,7 +11,7 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://portablee.imexblues.com';
+window.location.href = 'https://portablee.github.io/design/';
 </script>";
 } else {
 echo 'Falló el envio';
